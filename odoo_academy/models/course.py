@@ -18,3 +18,5 @@ class Course(models.Model):
                              copy=False)
     
     active = fields.Boolean(string='Active', default=True)
+    
+    new_test = fields.Boolean(string='Test Field')
